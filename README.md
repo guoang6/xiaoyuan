@@ -5,6 +5,9 @@ http://www.guoang.xyz/changhangtong<br>
 http://www.guoang.xyz/changhangtong/admin
 
 
+# 简介
+  前端vue后端node的express框架数据库mysql。主要涵盖：校园信息交流平台（二手信息，交流问答，新闻文章，校内活动，招聘信息）评论 ，内容审核，实名认证，消息通知，移动端适配
+
 
 
 # 运行
