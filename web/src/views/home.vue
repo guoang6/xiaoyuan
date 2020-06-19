@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div v-title data-title="昌航通 | 首页"></div>
+    <div v-title data-title="哈哈哈 | 首页"></div>
 
     <!-- Start of Page Container -->
     <div class="page-container">

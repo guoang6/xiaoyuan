@@ -67,7 +67,7 @@ export default {
         oldstuff_img: "",
         oldstuff_name: "",
         oldstuff_price: "",
-        oldstuff_content: "<ol><li>联系时请说明是“昌航通”</li></ol>",
+        oldstuff_content: "<ol><li>联系时请说明是“哈哈哈”</li></ol>",
         oldstuff_lable: ""
       }
     };

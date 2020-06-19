@@ -1,6 +1,6 @@
 <template>
   <div class="kefu">
-    <div v-title data-title="昌航通  |  账号申诉"></div>
+    <div v-title data-title="哈哈哈  |  账号申诉"></div>
     <div class="main">
       <el-page-header @back="$router.back(-1)" content="账号申诉"></el-page-header>
         <el-form

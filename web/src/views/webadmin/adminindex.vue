@@ -1,6 +1,6 @@
  <template>
   <div class="adminhome">
-<div v-title data-title="昌航通 | 个人中心 "></div>
+<div v-title data-title="哈哈哈 | 个人中心 "></div>
 
     <div class="min">
       <el-container style="min-height: 700px; border: 1px solid #eee">

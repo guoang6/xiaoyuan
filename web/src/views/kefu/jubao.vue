@@ -1,6 +1,6 @@
 <template>
   <div class="kefu">
-    <div v-title data-title="昌航通  |  违规举报"></div>
+    <div v-title data-title="哈哈哈  |  违规举报"></div>
     <div class="main">
       <el-page-header @back="$router.back(-1)" content="违规举报"></el-page-header>
 

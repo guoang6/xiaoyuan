@@ -1,6 +1,6 @@
 <template>
   <div class="activitycontent">
-    <div v-title data-title="昌航通 | 公司详情"></div>
+    <div v-title data-title="哈哈哈 | 公司详情"></div>
 
     <!-- Start of Page Container -->
     <div class="page-container">

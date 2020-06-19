@@ -14,7 +14,7 @@
           <el-menu-item style="  color: white; font-size:20px">
             <a class="iconfont" v-if="isCollapse" @click="changeCollapse">&#xe64b;</a>
 
-            <span slot="title">“昌航通”信息平台</span>
+            <span slot="title">“哈哈哈”信息平台</span>
           </el-menu-item>
           <el-menu-item index="/" >
             <i class="el-icon-pie-chart"></i>
@@ -65,7 +65,7 @@
       <el-container style=" position:relative ;">
         <el-header>
           <li style="position: absolute;top: 0;left: 60px; font-size:20px">
-            <span style="font-size:20px" v-if="isCollapse">“昌航通”信息平台</span>
+            <span style="font-size:20px" v-if="isCollapse">“哈哈哈”信息平台</span>
             <a class="iconfont" @click="changeCollapse" v-if="!isCollapse">&#xe61f;</a>
           </li>
 

@@ -77,7 +77,7 @@
           <div class="row">
             <div class="span6">
               <p class="copyright">
-                Copyright © 2019 - 昌航通 -
+                Copyright © 2019 - 哈哈哈 -
                 <a
                   style="color: #858585;"
                   href="http://www.miit.gov.cn/"

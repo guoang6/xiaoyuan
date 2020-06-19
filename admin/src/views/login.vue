@@ -2,7 +2,7 @@
   <div id="login" style="    width: 100%;height: 100%;">
     <loginparticles />
     <div class="login-box">
-      <p class="title">“昌航通”后台管理系统</p>
+      <p class="title">“哈哈哈”后台管理系统</p>
       <form action id="form" @submit.prevent="onSubmit">
         <p class="usericon">
           <input type="text" v-model="username" placeholder="用户" id="username" />
