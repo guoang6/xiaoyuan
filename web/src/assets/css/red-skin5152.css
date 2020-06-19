@@ -1,0 +1,58 @@
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* -------------------------------------------------- Red Skin ---------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* Header ---------------------------------------------------------------------------------------------------------*/
+
+
+.social-nav li.facebook a {
+  background-image: url("red-skin/facebook.png");
+}
+.social-nav li.deviantart a {
+  background-image: url("red-skin/devine-art.png");
+}
+.social-nav li.flickr a {
+  background-image: url("red-skin/flickr.png");
+}
+.social-nav li.google a {
+  background-image: url("red-skin/google.png");
+}
+.social-nav li.linkedin a {
+  background-image: url("red-skin/linked-in.png");
+}
+.social-nav li.rss a {
+  background-image: url("red-skin/rss.png");
+}
+.social-nav li.skype a {
+  background-image: url("red-skin/skype.png");
+}
+.social-nav li.stumble a {
+  background-image: url("red-skin/stumble.png");
+}
+.social-nav li.twitter a {
+  background-image: url("red-skin/twitter.png");
+}
+
+a#scroll-top {
+  background-color: #8d433f;
+}
+a#scroll-top:hover {
+  background-color: #9e4c47;
+}
+
+
+.toggle dt span,
+.accordion dt span {
+  background-image: url("red-skin/plus-minus.png");
+}
+
+.faq-icon {
+  background-image: url("red-skin/faq-plus.png");
+}
+
+.faq-item.active .faq-icon {
+  background-image: url("red-skin/faq-minus.png");
+}
+
+.faq-item.active h3.faq-question {
+  color: #3b4348;
+}

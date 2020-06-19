@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 1619251 */
+  src: url('//at.alicdn.com/t/font_1619251_7rezr6udav2.eot');
+  src: url('//at.alicdn.com/t/font_1619251_7rezr6udav2.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1619251_7rezr6udav2.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1619251_7rezr6udav2.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1619251_7rezr6udav2.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1619251_7rezr6udav2.svg#iconfont') format('svg');
+}
+  .iconfont{
+    font-family: 'iconfont';
+}
+.iconfont{
+ font-size: 20px;
+}
+
+
+/**修改element样式**/
+.el-carousel__indicators {
+  z-index: -10;
+}
