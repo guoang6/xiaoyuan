@@ -140,12 +140,12 @@
               <el-button
                 type="text"
                 size="small"
-                :disabled="scope.row.username == 'guoang'"
+                :disabled="scope.row.username == 'admin'"
                 @click="deleteuser(scope.row)"
               >删除</el-button>
               <el-button
                 type="text"
-                :disabled="scope.row.username == 'guoang'"
+                :disabled="scope.row.username == 'admin'"
                 size="small"
                 @click="changepw(scope.row)"
               >修改密码</el-button>

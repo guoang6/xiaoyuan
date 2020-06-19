@@ -6,8 +6,8 @@
         <div class="container">
           <div class="logo-container">
             <!-- Website Logo -->
-            <span style="font-size: 35px;color: white;">昌航通</span>
-            <span class="tag-line">南昌航空大学信息交流平台</span>
+            <span style="font-size: 35px;color: white;">ooo</span>
+            <span class="tag-line">OOOO大学信息交流平台</span>
           </div>
           <!-- Start of Main Navigation -->
           <nav class="main-nav">
@@ -113,10 +113,10 @@
     <!-- Start of Search Wrapper -->
     <div class="search-area-wrapper">
       <div class="search-area container">
-        <h3 class="search-header">changhangtong</h3>
+        <h3 class="search-header">OOOOOOOOOOOO</h3>
         <!-- <button class="header-btn">发布信息</button> -->
         <p class="search-tag-line" style="margin-top:50px">
-          Information sharing and communication platform of Nanchang Hangkong University
+          Information sharing and communication platform of OOOOOOOOOOOO University
           , Makes information transfer easier
         </p>
 

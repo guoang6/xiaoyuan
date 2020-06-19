@@ -42,28 +42,28 @@
             </li>
             <li>
               身份 :
-              <span style="margin-left:20px" v-if="tableData.username=='guoang'">超级管理员</span>
+              <span style="margin-left:20px" v-if="tableData.username=='admin'">超级管理员</span>
               <span style="margin-left:20px" v-else>普通管理员管理员</span>
             </li>
             <li>
               权限 :
               <span
                 style="margin-left:20px"
-                v-if="tableData.issh=='1'&&tableData.username!=='guoang'"
+                v-if="tableData.issh=='1'&&tableData.username!=='admin'"
               >审核中心</span>
               <span
                 style="margin-left:20px"
-                v-if="tableData.isyh=='1'&&tableData.username!=='guoang'"
+                v-if="tableData.isyh=='1'&&tableData.username!=='admin'"
               >用户中心</span>
               <span
                 style="margin-left:20px"
-                v-if="tableData.isgl=='1'&&tableData.username!=='guoang'"
+                v-if="tableData.isgl=='1'&&tableData.username!=='admin'"
               >平台管理中心</span>
               <span
                 style="margin-left:20px"
-                v-if="tableData.isfk=='1'&&tableData.username!=='guoang'"
+                v-if="tableData.isfk=='1'&&tableData.username!=='admin'"
               >反馈中心</span>
-              <span style="margin-left:20px" v-if="tableData.username=='guoang'">超级管理员拥有最高权限</span>
+              <span style="margin-left:20px" v-if="tableData.username=='admin'">超级管理员拥有最高权限</span>
             </li>
           </ul>
           <ul>
@@ -84,23 +84,23 @@
         <div class="renwu">
           <h4>职责</h4>
           <el-divider></el-divider>
-          <div v-if="uinfo.jurisdiction.issh =='1'|| uinfo.username == 'guoang'">
+          <div v-if="uinfo.jurisdiction.issh =='1'|| uinfo.username == 'admin'">
             <span>网站内容的审核，用户评论的审核</span>
             <el-divider></el-divider>
           </div>
-          <div v-if="uinfo.jurisdiction.isyh =='1'|| uinfo.username == 'guoang'">
+          <div v-if="uinfo.jurisdiction.isyh =='1'|| uinfo.username == 'admin'">
             <span>用户的学生认证，公司认证，用户账号状态的管理</span>
             <el-divider></el-divider>
           </div>
-          <div v-if="uinfo.jurisdiction.isgl=='1'|| uinfo.username == 'guoang'">
+          <div v-if="uinfo.jurisdiction.isgl=='1'|| uinfo.username == 'admin'">
             <span>网站轮播图的管理，各模块分类的管理</span>
             <el-divider></el-divider>
           </div>
-          <div v-if="uinfo.jurisdiction.isfk =='1'|| uinfo.username == 'guoang'">
+          <div v-if="uinfo.jurisdiction.isfk =='1'|| uinfo.username == 'admin'">
             <span>用户反馈信息的管理，用户举报信息的管理</span>
             <el-divider></el-divider>
           </div>
-          <div v-if="uinfo.username == 'guoang'">
+          <div v-if="uinfo.username == 'admin'">
             <span>管理员账号的管理，网站内容的删除</span>
             <el-divider></el-divider>
           </div>

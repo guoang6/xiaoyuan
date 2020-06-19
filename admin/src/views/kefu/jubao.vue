@@ -83,7 +83,7 @@
               <el-button
                 type="text"
                 size="small"
-                :disabled="scope.row.username == 'guoang'"
+                :disabled="scope.row.username == 'admin'"
                 @click="deletkefu(scope.row)"
               >删除</el-button>
             </template>

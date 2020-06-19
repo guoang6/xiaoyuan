@@ -9,7 +9,7 @@ const state = {
   contentname:'',
   contentuserid:'',
   // url:'http://localhost:8080',
-  url:'http://www.guoang.xyz/changhangtong'
+  url:window.location.href.split('#')[0]
 }
 const getters = {}
 const mutations = {

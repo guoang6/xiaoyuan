@@ -136,7 +136,7 @@
                 type="text"
                 size="small"
                 @click="del(scope.row.help_id)"
-                :disabled="uinfo.username !== 'guoang'"
+                :disabled="uinfo.username !== 'admin'"
               >删除</el-button>
             </template>
           </el-table-column>
@@ -175,7 +175,7 @@
                   type="text"
                   size="small"
                   @click="del(scope.row.activity_id)"
-                  :disabled="uinfo.username !== 'guoang'"
+                  :disabled="uinfo.username !== 'admin'"
                 >删除</el-button>
               </template>
             </el-table-column>
@@ -218,7 +218,7 @@
                   type="text"
                   size="small"
                   @click="del(scope.row.oldstuff_id)"
-                  :disabled="uinfo.username !== 'guoang'"
+                  :disabled="uinfo.username !== 'admin'"
                 >删除</el-button>
               </template>
             </el-table-column>
@@ -259,7 +259,7 @@
                   type="text"
                   size="small"
                   @click="del(scope.row.job_id)"
-                  :disabled="uinfo.username !== 'guoang'"
+                  :disabled="uinfo.username !== 'admin'"
                 >删除</el-button>
               </template>
             </el-table-column>
@@ -299,7 +299,7 @@
                   type="text"
                   size="small"
                   @click="del(scope.row.article_id)"
-                  :disabled="uinfo.username !== 'guoang'"
+                  :disabled="uinfo.username !== 'admin'"
                 >删除</el-button>
               </template>
             </el-table-column>

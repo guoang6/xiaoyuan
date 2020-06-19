@@ -38,9 +38,9 @@ Vue.config.productionTip = false
 import axios from 'axios'
 // axios.defaults.withCredentials = true
 //aciox基础url
-// axios.defaults.baseURL = 'http://127.0.0.1:3000';
+axios.defaults.baseURL = 'http://127.0.0.1:3000';
 
-axios.defaults.baseURL = 'http://www.guoang.xyz:3000';
+// axios.defaults.baseURL = 'http://www.guoang.xyz:3000';
 
 //将axios写成vue的原型属性
 Vue.prototype.$axios = axios;

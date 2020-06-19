@@ -159,7 +159,7 @@ exports.changepassword = async (req, res) => {
 
 //管理员授权
 exports.changeadminstate = async (req, res) => {
-    if (req.user.username == 'guoang') {
+    if (req.user.username == 'admin') {
         let info = [
             req.body.isfk,
             req.body.isyh,
@@ -187,7 +187,7 @@ exports.changeadminstate = async (req, res) => {
 //用户状态修改
 exports.changeuseruserstate = async (req, res) => {
     console.log(req.body)
-    if (req.user.isyh == '1' || req.user.username == 'guoang') {
+    if (req.user.isyh == '1' || req.user.username == 'admin') {
         let info = [
             req.body.user_state,
             req.body.user_id,

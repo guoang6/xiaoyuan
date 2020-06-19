@@ -8,7 +8,7 @@
             <section class="widget">
               <h3 class="title">网站主要功能</h3>
               <div class="textwidget">
-                <p>“昌航通”是南昌航空大学信息发布与交流平台，用户通过注册账号后就可以发布信息和评论，你可以在这里进行求助和帮助他人</p>
+                <p>“OOO”是OOOO大学信息发布与交流平台，用户通过注册账号后就可以发布信息和评论，你可以在这里进行求助和帮助他人</p>
               </div>
               <h3 class="title">公告</h3>
               <div class="textwidget">
@@ -22,10 +22,10 @@
               <h3 class="title">友情链接</h3>
               <ul>
                 <li>
-                  <a href="#" title="Lorem ipsum dolor sit amet,">南昌航空大学官网</a>
+                  <a href="#" title="Lorem ipsum dolor sit amet,">ooooo大学官网</a>
                 </li>
                 <li>
-                  <a href="#" title="Lorem ipsum dolor sit amet,">南昌航空大学教务处</a>
+                  <a href="#" title="Lorem ipsum dolor sit amet,">OOOOO大学教务处</a>
                 </li>
                 <li>
                   <a

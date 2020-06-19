@@ -72,19 +72,19 @@
               <el-button
                 type="text"
                 size="small"
-                :disabled="uinfo.username !== 'guoang'"
+                :disabled="uinfo.username !== 'admin'"
                 @click="activationdate(scope.row)"
               >封禁解封</el-button>
               <el-button
                 type="text"
                 size="small"
-                :disabled="uinfo.username !== 'guoang'"
+                :disabled="uinfo.username !== 'admin'"
                 @click="deleteuser(scope.row)"
               >删除</el-button>
               <el-button
                 type="text"
                 size="small"
-                :disabled="scope.row.username== 'guoang'||uinfo.username !== 'guoang'"
+                :disabled="scope.row.username== 'admin'||uinfo.username !== 'admin'"
                 @click="changepw(scope.row)"
               >修改密码</el-button>
             </template>

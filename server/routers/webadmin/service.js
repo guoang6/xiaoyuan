@@ -207,7 +207,8 @@ exports.updatauser = async (req, res) => {
 //图片上传  
 exports.uplod = (req, res) => {
     const file = req.file
-    file.url = `http://oss.guoang.xyz/${file.filename}`
+    // file.url = `http://oss.guoang.xyz/${file.filename}`
+    file.url = `http://localhost:3000/uplodes/${file.filename}`
     console.log(file)
     res.send(file)
 }

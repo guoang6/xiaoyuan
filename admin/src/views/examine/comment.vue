@@ -96,7 +96,7 @@
                       type="text"
                       size="small"
                       @click="del(scope.row.reply_id,'reply')"
-                      :disabled="uinfo.username !== 'guoang'"
+                      :disabled="uinfo.username !== 'admin'"
                     >删除</el-button>
                   </template>
                 </el-table-column>
@@ -154,7 +154,7 @@
                 type="text"
                 size="small"
                 @click="del(scope.row.comment_id,'comment')"
-                :disabled="uinfo.username !== 'guoang'"
+                :disabled="uinfo.username !== 'admin'"
               >删除</el-button>
             </template>
           </el-table-column>
