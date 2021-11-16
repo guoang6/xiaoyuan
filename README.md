@@ -15,12 +15,14 @@ http://www.guoang.xyz/changhangtong/admin
  * 2.导入数据库
    + 数据库文件/数据库   
    + 数据库配置文件/server/plugins/DataBase.ini.js
- * 3.分别在/admin；/server/；/web下面执行命令
-
 
  数据库文件
  
 ![image](https://user-images.githubusercontent.com/50048496/141990468-25d1d534-0f8a-4836-8c75-fd2d05186ea3.png)
+
+ * 3.分别在/admin；/server/；/web下面执行命令
+
+
 
 ```
 npm i
