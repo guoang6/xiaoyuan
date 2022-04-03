@@ -13,8 +13,8 @@ http://www.guoang.xyz/changhangtong/admin
 # 运行
  * 1.安装node环境（百度）
  * 2.导入数据库
-   + 数据库文件/数据库   
-   + 数据库配置文件/server/plugins/DataBase.ini.js
+   + 数据库文件：/数据库   
+   + 数据库配置文件：/server/plugins/DataBase.ini.js
 
  数据库文件
  
